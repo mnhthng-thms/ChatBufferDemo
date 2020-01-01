@@ -6,7 +6,7 @@ This project demonstrates how a chat buffer works using data structures stack an
 ## Screenshots
 ![Main Menu CLI](https://raw.githubusercontent.com/mnhthng-thms/ChatBufferDemo/master/Screeenshot%2001.png)
 
-## How to run this project? 
+## Usage
 Run from ```main()``` in ```View.UserInterface``` class.
 ## Notes
 This project is my code submission for the subject "Unit 19-Data Structure and Algorithms" of Pearson BTEC Higher Nationals in

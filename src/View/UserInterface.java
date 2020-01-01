@@ -36,30 +36,6 @@ public class UserInterface {
         // Re-fetch the runtime buffer and print its string representation out
         runtimeBuffer.stackFrom(runtimeQueue);
         System.out.println(runtimeBuffer.toString());
-        /*if (runtimeBuffer.isEmpty()) {
-            System.out.println("There are no messages yet!");
-        } else {
-        int j = 0;
-        int bufferSize = runtimeBuffer.size();
-        while (j < bufferSize) {
-            System.out.println("------------------------------------------------");
-            System.out.println(String.format("| %s", runtimeBuffer.getByIndex(j)));
-            System.out.println("------------------------------------------------");
-            System.out.println(String.format("Page %n of %n. ", j, bufferSize));
-            if (j < (bufferSize - 1)) {
-                System.out.print("Press [1] to see the next page. Press [0] to return to Main Menu.");
-                int inputKey = getChoice();
-                switch (inputKey) {
-                    case 0:
-                        break;
-                    case 1:
-                        j++;
-                        break;
-                    default:
-                        throw new InvalidInputException();
-                }
-            }
-        }*/
     }
 
 

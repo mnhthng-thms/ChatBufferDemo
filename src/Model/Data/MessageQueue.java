@@ -21,7 +21,6 @@ public class MessageQueue {
     }
 
     public void dequeueMessageOf(User usr) {
-        // java.util.LinkedList.removeLast() remove and return the removed object
         try {
             for (int i = queue.size()-1; i >= 0; i--) {
                 if (queue.get(i).getSender() == usr) {
@@ -35,6 +34,7 @@ public class MessageQueue {
         }
     }
 
+    // string representation of queue
     public String toString() {
         String tmp = "";
         for (Message o: queue) {
@@ -43,6 +43,7 @@ public class MessageQueue {
         return tmp;
     }
 
+    // Export ArrayList of string representation from the queue of Message objects
     public ArrayList<String> toStringList() {
         ArrayList<String> tmp = new ArrayList<String>();
         for (Message o: queue) {

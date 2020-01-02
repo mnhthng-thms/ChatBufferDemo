@@ -102,8 +102,17 @@ public class UserInterface {
                     }
                 case 5:
                     try {
+                        long startTime = System.nanoTime();
+
                         viewAllMessages();
+                        long endTime = System.nanoTime();
+
                         System.out.println();
+
+                        long runTime = endTime - startTime;
+                        System.out.println("Execution time in nanoseconds: " + runTime);
+                        System.out.println();
+
                         break;
                     } catch (Exception e) {
 

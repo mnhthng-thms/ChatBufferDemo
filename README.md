@@ -12,7 +12,8 @@ Some weird experiments included:
 
 ## Screenshots
 
-_of original version from `master` branch: _
+> of original version from `master` branch:
+
 ![Main Menu CLI](https://raw.githubusercontent.com/mnhthng-thms/ChatBufferDemo/master/Screeenshot%2001.png)
 
 ## Usage
